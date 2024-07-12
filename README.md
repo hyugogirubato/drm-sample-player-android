@@ -61,7 +61,7 @@ The application can also be downloaded from App Center. More information about t
 * Play video from an offline source
 1. Observe the offline availability status of the selected video. It is a text placed between the video sample list and control buttons:
 
-![](Images/offline_availability_status.png)
+![](docs/images//offline_availability_status.png)
 
 For the video to be available offline, it has to be both downloaded and have a valid license (indicated by the green text, any issues can be recognized by red text).
 
@@ -177,6 +177,6 @@ public void onPrepareError(DownloadHelper helper, IOException e) {
 ## Downloading the application
 
 This application can be downloaded from App Center by either navigating to the [website](https://install.appcenter.ms/orgs/ax/apps/axinom-drm-sample-player-1/distribution_groups/public) directly or by scanning this QR code with your device:  
-![](Images/qr_code.png)
+![](docs/images/qr_code.png)
 
 It is also important to keep in mind that the installation of apps from unknown sources has to be allowed on your device. If it is not allowed, then you will be prompted to do that during the installation process.
